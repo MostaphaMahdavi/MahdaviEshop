@@ -1,0 +1,15 @@
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/bin/Debug/net6.0/LoggingServices.Domains.deps.json
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/bin/Debug/net6.0/LoggingServices.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/bin/Debug/net6.0/LoggingServices.Domains.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/bin/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/bin/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.csproj.AssemblyReference.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.AssemblyInfoInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.AssemblyInfo.cs
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.csproj.CoreCompileInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.csproj.CopyComplete
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/refint/LoggingServices.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/LoggingServices.Domains.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/Debug/net6.0/ref/LoggingServices.Domains.dll

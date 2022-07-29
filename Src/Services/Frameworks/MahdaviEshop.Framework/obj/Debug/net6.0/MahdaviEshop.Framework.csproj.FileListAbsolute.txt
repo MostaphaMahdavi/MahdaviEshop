@@ -1,0 +1,12 @@
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/bin/Debug/net6.0/MahdaviEshop.Framework.deps.json
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/bin/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/bin/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.csproj.AssemblyReference.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.AssemblyInfoInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.AssemblyInfo.cs
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.csproj.CoreCompileInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/refint/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/Debug/net6.0/ref/MahdaviEshop.Framework.dll

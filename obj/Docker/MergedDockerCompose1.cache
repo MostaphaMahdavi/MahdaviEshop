@@ -1,0 +1,206 @@
+services:
+  basketdb:
+    container_name: basketdbmahdavi
+    environment:
+      name: value
+    image: redis:alpine
+    ports:
+    - published: 6997
+      target: 6379
+    restart: always
+  baskets.api:
+    build:
+      context: /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop
+      dockerfile: Src/Services/Baskets/Baskets.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Baskets.Api
+      target: base
+    container_name: Baskets.Api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: baskets:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/Baskets.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5901
+      target: 80
+    tty: true
+    volumes:
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Api:/app:rw
+    - /Users/mostapha/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/mostapha/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop:/src:rw
+  discountdb:
+    container_name: discountdbmahdavi
+    environment:
+      POSTGRES_DB: DiscountDbMahdavi
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
+    image: postgres
+    ports:
+    - published: 6996
+      target: 5432
+    restart: always
+    volumes:
+    - postgres_data_discount:/var/lib/postgresql/data:rw
+  discounts.api:
+    build:
+      context: /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop
+      dockerfile: Src/Services/Discounts/Discounts.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Discounts.Api
+      target: base
+    container_name: Discounts.Api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: discounts:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/Discounts.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5902
+      target: 80
+    tty: true
+    volumes:
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Discounts/Discounts.Api:/app:rw
+    - /Users/mostapha/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/mostapha/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop:/src:rw
+  loggingservices.api:
+    build:
+      context: /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop
+      dockerfile: Src/Services/LoggingServices/LoggingServices.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: LoggingServices.Api
+      target: base
+    container_name: LoggingServices.Api
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: loggingservices:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/LoggingServices.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Api:/app:rw
+    - /Users/mostapha/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/mostapha/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop:/src:rw
+  mongodb:
+    container_name: mongodbmahdavi
+    image: mongo
+    ports:
+    - published: 6963
+      target: 27017
+    restart: always
+    volumes:
+    - mongo-data:/data/db:rw
+  pgadmin:
+    container_name: pgadminmahdavi
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@aspnetrun.com
+      PGADMIN_DEFAULT_PASSWORD: admin1234
+    image: dpage/pgadmin4
+    ports:
+    - published: 6998
+      target: 80
+    restart: always
+    volumes:
+    - pgadmin-data:/root/.pgadmin:rw
+  productdb:
+    container_name: productdbmahdavi
+    environment:
+      POSTGRES_DB: ProductDbMahdavi
+      POSTGRES_PASSWORD: admin1234
+      POSTGRES_USER: admin
+    image: postgres
+    ports:
+    - published: 6999
+      target: 5432
+    restart: always
+    volumes:
+    - postgres_data:/var/lib/postgresql/data:rw
+  products.api:
+    build:
+      context: /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop
+      dockerfile: Src/Services/Products/Products.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Products.Api
+      target: base
+    container_name: Products.Api
+    depends_on:
+      productdb:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: products:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/net6.0/Products.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5900
+      target: 80
+    tty: true
+    volumes:
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Api:/app:rw
+    - /Users/mostapha/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/mostapha/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop:/src:rw
+  rabbitmq:
+    container_name: rabbitmqmahdavi
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 6965
+      target: 5672
+    - published: 6964
+      target: 15672
+    restart: always
+version: '3.4'
+volumes:
+  mongo-data: {}
+  pgadmin-data: {}
+  postgres_data: {}
+  postgres_data_discount: {}

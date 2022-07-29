@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.DataAccessLayer/Products.DataAccessLayer.csproj": {}
+  },
+  "projects": {
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj",
+        "projectName": "MahdaviEshop.Framework",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.13.0, )"
+            },
+            "RestSharpPolly": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.DataAccessLayer/Products.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.DataAccessLayer/Products.DataAccessLayer.csproj",
+        "projectName": "Products.DataAccessLayer",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.DataAccessLayer/Products.DataAccessLayer.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/Products.Domain.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/Products.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/Products.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/Products.Domain.csproj",
+        "projectName": "Products.Domain",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/Products.Domain.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

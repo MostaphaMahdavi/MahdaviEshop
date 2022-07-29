@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Frameworks\MahdaviEshop.Framework\MahdaviEshop.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Baskets\" />
+    <None Remove="Baskets\Entities\" />
+    <None Remove="Baskets\Repositories\" />
+    <None Remove="Baskets\Services\" />
+    <None Remove="Baskets\Dtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Baskets\" />
+    <Folder Include="Baskets\Entities\" />
+    <Folder Include="Baskets\Repositories\" />
+    <Folder Include="Baskets\Services\" />
+    <Folder Include="Baskets\Dtos\" />
+  </ItemGroup>
+</Project>

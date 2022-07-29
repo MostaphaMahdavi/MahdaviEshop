@@ -1,0 +1,15 @@
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/bin/Debug/net6.0/Baskets.Domains.deps.json
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/bin/Debug/net6.0/Baskets.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/bin/Debug/net6.0/Baskets.Domains.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/bin/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/bin/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.csproj.AssemblyReference.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.AssemblyInfoInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.AssemblyInfo.cs
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.csproj.CoreCompileInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.csproj.CopyComplete
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/refint/Baskets.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/Baskets.Domains.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.Domains/obj/Debug/net6.0/ref/Baskets.Domains.dll

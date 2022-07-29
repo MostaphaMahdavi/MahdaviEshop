@@ -1,0 +1,17 @@
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/Baskets.DataAccessLayers.deps.json
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/Baskets.DataAccessLayers.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/Baskets.DataAccessLayers.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/Baskets.Domains.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/Baskets.Domains.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/bin/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.csproj.AssemblyReference.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.AssemblyInfoInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.AssemblyInfo.cs
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.csproj.CoreCompileInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.csproj.CopyComplete
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/refint/Baskets.DataAccessLayers.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/Baskets.DataAccessLayers.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Baskets/Baskets.DataAccessLayers/obj/Debug/net6.0/ref/Baskets.DataAccessLayers.dll

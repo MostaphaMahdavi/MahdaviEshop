@@ -1,0 +1,47 @@
+version: '3.4'
+
+services:
+  mongodb:
+    image: mongo
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+  discountdb:
+    image: postgres
+  basketdb:
+    image: redis:alpine
+  pgadmin:
+    image: dpage/pgadmin4
+  productdb:
+    image: postgres
+  products.api:
+    image: ${DOCKER_REGISTRY-}products
+    build:
+      context: .
+      dockerfile: Src/Services/Products/Products.Api/Dockerfile
+  baskets.api:
+    image: ${DOCKER_REGISTRY-}baskets
+    build:
+      context: .
+      dockerfile: Src/Services/Baskets/Baskets.Api/Dockerfile
+
+  discounts.api:
+    image: ${DOCKER_REGISTRY-}discounts
+    build:
+      context: .
+      dockerfile: Src/Services/Discounts/Discounts.Api/Dockerfile
+
+  loggingservices.api:
+    image: ${DOCKER_REGISTRY-}loggingservices
+    build:
+      context: .
+      dockerfile: Src/Services/LoggingServices/LoggingServices.Api/Dockerfile
+
+volumes:
+    postgres_data:
+    pgadmin-data:
+    postgres_data_discount:
+    mongo-data:
+      
+
+
+

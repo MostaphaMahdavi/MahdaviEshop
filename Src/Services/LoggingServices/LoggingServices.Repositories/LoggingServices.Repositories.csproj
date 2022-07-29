@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoggingServices.DataAccessLayers\LoggingServices.DataAccessLayers.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Loggings\" />
+    <None Remove="Loggings\Impliments\" />
+    <None Remove="MassTransit" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Loggings\" />
+    <Folder Include="Loggings\Impliments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.5" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,72 @@
+﻿<Properties StartupConfiguration="{66B0F20C-7587-4969-9085-CC615122E4FE}|Default">
+  <MonoDevelop.Ide.ItemProperties.Src.Services.Discounts.004-EndPoints.Discounts.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs">
+    <Files>
+      <File FileName="Src/Services/Products/Products.Api/Controllers/ProductController.cs" Line="39" Column="1" />
+      <File FileName="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" Line="181" Column="22" />
+      <File FileName="Src/Services/Products/Products.Api/Extentions/ServiceRegisteryExtention.cs" Line="78" Column="1" />
+      <File FileName="Src/Services/Products/Products.Api/Program.cs" Line="43" Column="1" />
+      <File FileName="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/IServiceProvicer.cs" Line="19" Column="144" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MahdaviEshop" expanded="True">
+            <Node name="Src" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="Frameworks" expanded="True">
+                  <Node name="MahdaviEshop.Framework" expanded="True">
+                    <Node name="ServiceProvider" expanded="True">
+                      <Node name="ServiceProvicer.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Products" expanded="True">
+                  <Node name="003-Services" expanded="True">
+                    <Node name="Products.Services" expanded="True" />
+                  </Node>
+                  <Node name="004-EndPoints" expanded="True">
+                    <Node name="Products.Api" expanded="True">
+                      <Node name="Controllers" expanded="True" />
+                      <Node name="Extentions" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Src.Services.LoggingServices.004-EndPoints.LoggingServices.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Discounts/Discounts.Api/Controllers/DiscountController.cs" relfile="Src/Services/Discounts/Discounts.Api/Controllers/DiscountController.cs" line="27" column="1" />
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Discounts/Discounts.Api/Controllers/DiscountController.cs" relfile="Src/Services/Discounts/Discounts.Api/Controllers/DiscountController.cs" line="33" column="1" />
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Api/Controllers/ProductController.cs" relfile="Src/Services/Products/Products.Api/Controllers/ProductController.cs" line="37" column="1" />
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" relfile="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" line="173" column="1" />
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" relfile="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" line="277" column="1" />
+    <Breakpoint file="/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" relfile="Src/Services/Frameworks/MahdaviEshop.Framework/ServiceProvider/ServiceProvicer.cs" line="194" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{586A572D-CB9F-4200-A9D6-DAD22A7FCEF0}" ItemName="Baskets.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{4A1F46F3-3263-40EB-9CDC-BE562DCB3D24}" ItemName="Discounts.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{66B0F20C-7587-4969-9085-CC615122E4FE}" ItemName="LoggingServices.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{EE9C6BD1-32EE-4505-8628-6CA236753F31}" ItemName="Products.Api" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Src.Services.Products.004-EndPoints.Products.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <Debugger.DebugSourceFolders>
+    <String>/Users/mostapha/Library/Caches/VisualStudio/17.0/Symbols/graphql-dotnet/graphql-dotnet/632ba03cea876c472f2368b9b10b7857b4b8169e</String>
+  </Debugger.DebugSourceFolders>
+  <MonoDevelop.Ide.ItemProperties.Src.Services.Baskets.004-EndPoints.Baskets.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

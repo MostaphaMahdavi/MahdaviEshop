@@ -1,0 +1,411 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Services/LoggingServices.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj",
+        "projectName": "MahdaviEshop.Framework",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.13.0, )"
+            },
+            "RestSharpPolly": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/LoggingServices.DataAccessLayers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/LoggingServices.DataAccessLayers.csproj",
+        "projectName": "LoggingServices.DataAccessLayers",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/LoggingServices.DataAccessLayers.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/LoggingServices.Domains.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/LoggingServices.Domains.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/LoggingServices.Domains.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/LoggingServices.Domains.csproj",
+        "projectName": "LoggingServices.Domains",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/LoggingServices.Domains.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Domains/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Frameworks/MahdaviEshop.Framework/MahdaviEshop.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/LoggingServices.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/LoggingServices.Repositories.csproj",
+        "projectName": "LoggingServices.Repositories",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/LoggingServices.Repositories.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/LoggingServices.DataAccessLayers.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.DataAccessLayers/LoggingServices.DataAccessLayers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Services/LoggingServices.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Services/LoggingServices.Services.csproj",
+        "projectName": "LoggingServices.Services",
+        "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Services/LoggingServices.Services.csproj",
+        "packagesPath": "/Users/mostapha/.nuget/packages/",
+        "outputPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/mostapha/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj"
+              },
+              "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/LoggingServices.Repositories.csproj": {
+                "projectPath": "/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/LoggingServices/LoggingServices.Repositories/LoggingServices.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

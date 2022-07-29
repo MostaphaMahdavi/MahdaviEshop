@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoggingServices.Repositories\LoggingServices.Repositories.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="EventBusConsumers\" />
+    <None Remove="MassTransit" />
+    <None Remove="MediatR" />
+    <None Remove="Loggings\" />
+    <None Remove="Loggings\Commands\" />
+    <None Remove="Loggings\Queries\" />
+    <None Remove="Loggings\Commands\Create\" />
+    <None Remove="Loggings\Commands\Update\" />
+    <None Remove="Loggings\Commands\Delete\" />
+    <None Remove="Loggings\Queries\GetAll\" />
+    <None Remove="Loggings\Queries\Get\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EventBusConsumers\" />
+    <Folder Include="Loggings\" />
+    <Folder Include="Loggings\Commands\" />
+    <Folder Include="Loggings\Queries\" />
+    <Folder Include="Loggings\Commands\Create\" />
+    <Folder Include="Loggings\Commands\Update\" />
+    <Folder Include="Loggings\Commands\Delete\" />
+    <Folder Include="Loggings\Queries\GetAll\" />
+    <Folder Include="Loggings\Queries\Get\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.5" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+  </ItemGroup>
+</Project>

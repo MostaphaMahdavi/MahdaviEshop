@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+      <UseAppHost>true</UseAppHost>
+       <_EnableMacOSCodeSign>false</_EnableMacOSCodeSign>
+       <DockerComposeProjectPath>../../../../docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.1.0" />
+        <PackageReference Include="GraphQL" Version="4.7.1" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore.SystemTextJson" Version="5.2.2" />
+    <PackageReference Include="GraphQL.Server.Ui.GraphiQL" Version="6.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.5" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Products.Services\Products.Services.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\BuildingBlocks\EventBus.Messages\EventBus.Messages.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="GraphQL" />
+    <None Remove="GraphQL.Server.Transports.AspNetCore.SystemTextJson" />
+    <None Remove="GraphQL.Server.Ui.GraphiQL" />
+    <None Remove="GQL\" />
+    <None Remove="GQL\Types\" />
+    <None Remove="GQL\Types\Products\" />
+    <None Remove="GQL\Types\Products\Responce\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="GQL\Types\Products\Request\" />
+    <None Remove="GQL\Mutations\" />
+    <None Remove="GQL\Queries\" />
+    <None Remove="GQL\Schemas\" />
+    <None Remove="MassTransit" />
+    <None Remove="MassTransit.Extensions.DependencyInjection" />
+    <None Remove="MassTransit.RabbitMQ" />
+    <None Remove="Polly" />
+    <None Remove="Microsoft.Extensions.Http.Polly" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GQL\" />
+    <Folder Include="GQL\Types\" />
+    <Folder Include="GQL\Types\Products\" />
+    <Folder Include="GQL\Types\Products\Responce\" />
+    <Folder Include="GQL\Types\Products\Request\" />
+    <Folder Include="GQL\Mutations\" />
+    <Folder Include="GQL\Queries\" />
+    <Folder Include="GQL\Schemas\" />
+  </ItemGroup>
+</Project>

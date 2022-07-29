@@ -1,0 +1,83 @@
+version: '3.4'
+
+services:
+  mongodb:
+    container_name: mongodbmahdavi
+    restart: always
+    ports:
+      - 6963:27017
+    volumes:
+      - mongo-data:/data/db
+  rabbitmq:
+    container_name: rabbitmqmahdavi
+    restart: always
+    ports:
+      - 6965:5672
+      - 6964:15672
+  discountdb:
+    container_name: discountdbmahdavi
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin1234 
+      - POSTGRES_DB=DiscountDbMahdavi
+    restart: always
+    ports:
+      - 6996:5432
+    volumes:
+      - postgres_data_discount:/var/lib/postgresql/data/ 
+  basketdb:
+    container_name: basketdbmahdavi
+    environment:
+      - name=value
+    restart: always
+    ports:
+      - 6997:6379
+  pgadmin:
+    container_name: pgadminmahdavi
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@aspnetrun.com
+      - PGADMIN_DEFAULT_PASSWORD=admin1234
+    restart: always
+    ports:
+      - 6998:80
+    volumes:
+      - pgadmin-data:/root/.pgadmin  
+  productdb:
+    container_name: productdbmahdavi
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin1234
+      - POSTGRES_DB=ProductDbMahdavi
+    restart: always
+    ports:
+      - 6999:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/    
+  products.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5900:80"
+    depends_on:
+      - productdb  
+
+  baskets.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5901:80"
+
+
+  discounts.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5902:80"
+
+
+  loggingservices.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qzj3NeevXdFpmO98/8TSmZW3aI6ogLY3u5f7LN6umBs=",
+  "Source": "LoggingServices.Api",
+  "BasePath": "_content/LoggingServices.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

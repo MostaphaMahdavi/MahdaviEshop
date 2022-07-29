@@ -1,0 +1,15 @@
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/bin/Debug/net6.0/Products.Domain.deps.json
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/bin/Debug/net6.0/Products.Domain.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/bin/Debug/net6.0/Products.Domain.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/bin/Debug/net6.0/MahdaviEshop.Framework.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/bin/Debug/net6.0/MahdaviEshop.Framework.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.csproj.AssemblyReference.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.AssemblyInfoInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.AssemblyInfo.cs
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.csproj.CoreCompileInputs.cache
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.csproj.CopyComplete
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/refint/Products.Domain.dll
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/Products.Domain.pdb
+/Users/mostapha/Desktop/E/Test/MicroserviceProjects/MahdaviEshop/Src/Services/Products/Products.Domain/obj/Debug/net6.0/ref/Products.Domain.dll
